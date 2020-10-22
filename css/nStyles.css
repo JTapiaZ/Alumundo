@@ -1,0 +1,232 @@
+/* COLOR BACKGROUND - ALL PAGE */
+body {
+    background-color: #1e1e1e !important;
+    overflow-x: hidden;
+}
+
+
+/* --- NAVBAR --- */
+.navbar {
+    padding: 1em 100px !important;
+}
+
+.header .navbar {
+    background-color: rgba(227, 226, 226, 1) !important;
+}
+
+.imageNavbar {
+    width: 85%;
+}
+
+
+/* --- BODY --- */
+
+.container-body {
+    background-position: top !important; 
+    background: url(../assets/Nosotros/BANNER-NOSOTROS.png) no-repeat center;
+    background-size: contain;
+    min-height: 85vh;
+}
+
+/* --- MISION VISION --- */
+
+.imageMV{
+    width: 40%;
+    position: relative;
+    z-index:2;
+    margin: -5%;
+}
+
+.textMV{
+    width: 40%;
+    position: relative;
+    top:-20rem;
+    left: 3rem;
+    z-index:3
+}
+
+.imageMV1 {
+    width: 40%;
+    position: relative;
+    z-index:2;
+    margin-top: -6%;
+    margin-left: -10%;
+}
+
+
+
+.containerFImage {
+    background-position-y: top;
+    margin-top: 15%;
+    text-align: center;
+}
+
+
+/* --- NUESTROS CLIENTES --- */
+.container-NCbody {
+    background-color: rgba(37, 39, 44, 1);
+    margin-top: 10%;
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    min-height: 75vh;
+}
+
+.imageClientes {
+    margin-left: 13%; 
+    margin-top: 8%;
+}
+
+
+
+/* --- IMAGE FOOTER --- */
+.image-footer {
+    background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center;
+    background-size: cover;
+    min-height: 55vh;
+}
+
+
+/* --- FOOTER --- */
+
+.titleContact {
+    text-align: center; color: white; margin-top: 2%;
+}
+
+.imageBlue {
+    background-image: url(../assets/Inicio/BARRA-CONTACTANOS.png);
+    width: 50%;
+}
+
+.lineFooter {
+    text-align: center; 
+    margin-top: 2%; color: rgba(82, 86, 89, 1); 
+    font-size: 75px;
+}
+
+.social {
+    width: 3%;
+}
+
+.alu2 {
+    width: 17%;
+}
+
+
+
+/* --- RESPONSIVE --- */
+
+@media only screen and (max-width: 768px) {
+body {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    padding: 0.5em 1em !important;
+}
+
+.navbar-brand {
+    width: 40%;
+}
+
+.imageNavbar {
+    width: 105%;
+}
+
+/* --- BODY --- */
+.container-body {
+    background-position: top !important; 
+    background: url(../assets/Inicio/BANNER-INICIO.png) no-repeat center;
+    background-size: contain;
+    min-height: 25vh;
+}
+
+/* --- MISION VISION --- */
+
+.imageMV{
+    width: 40%;
+    position: relative;
+    z-index:2;
+    margin: -5%;
+}
+
+.textMV{
+    width: 40%;
+    position: relative;
+    top:-4rem;
+    left: 1rem;
+    z-index:3
+}
+
+.imageMV1 {
+    width: 40%;
+    position: relative;
+    z-index:2;
+    margin-top: -6%;
+    margin-left: -10%;
+}
+
+
+
+.containerFImage {
+    background-position-y: top;
+    margin-top: 15%;
+    text-align: center;
+}
+
+
+/* --- NUESTROS CLIENTES --- */
+.container-NCbody {
+    background-color: rgba(37, 39, 44, 1);
+    margin-top: 10%;
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    min-height: 35vh;
+}
+
+.imageClientes {
+    margin-left: 6%; 
+    margin-top: 15% !important;
+    width: 90%;
+}
+
+
+
+/* --- FOOTER --- */
+.imageContactenos {
+    margin-top: 0%;
+    width: 100.5%;
+}
+
+.titleContact {
+    text-align: center; 
+    color: white; 
+    margin-top: 2%;
+    font-size: 150%;
+}
+
+.imageBlue {
+    background-image: url(../assets/Inicio/BARRA-CONTACTANOS.png);
+    width: 96.6% !important;
+}
+
+.lineFooter {
+    text-align: center; 
+    margin-top: -2%; color: rgba(82, 86, 89, 1); 
+    width: 100%;
+}
+
+.social {
+    width: 7%;
+}
+
+.alu1 {
+    width: 35%;
+}
+
+.alu2 {
+    width: 40%;
+}
+}
