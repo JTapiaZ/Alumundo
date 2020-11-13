@@ -279,13 +279,13 @@ body {
     width: 90%; 
     margin-left: auto !important;
     margin-right: auto !important; 
-    margin-top: -55% !important;
+    margin-top: -85% !important;
 }
 
 
 /* --- IMAGE FOOTER --- */
 .image-footer {
-    background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center fixed;
+    background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center;
     background-size: contain;
     margin-top: -25%;
 }
@@ -293,7 +293,7 @@ body {
 
 /* --- FOOTER --- */
 .imageContactenos {
-    margin-top: -25%;
+    margin-top: -33%;
     width: 100.5%;
 }
 

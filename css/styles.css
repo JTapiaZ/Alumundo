@@ -19,17 +19,17 @@ body {
         color: #020202;
     }
     
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
         background-color: #007ba1 !important;
-    }
-    
-    .navbar-light .navbar-nav .nav-link {
+}
+
+.navbar-light .navbar-nav .nav-link {
         color: #a84545;
-    }
-    
-    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
         background-color: #007ba1 !important;
-    }
+}
 
 
 .nav-link {
@@ -478,14 +478,14 @@ body {
 
 /* --- IMAGE FOOTER --- */
 .image-footer {
-        background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center fixed;
+        background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center;
         background-size: contain;
         margin-top: -25%;
 }
 
 /* --- FOOTER --- */
 .imageContactenos {
-        margin-top: -25%;
+        margin-top: -33%;
         width: 100.5%;
 }
 
