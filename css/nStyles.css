@@ -8,6 +8,34 @@ body {
 /* --- NAVBAR --- */
 .navbar {
     padding: 1em 100px !important;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgb(255,255,255) 20%, rgb(255,255,255) 63%, rgba(132,132,130, 1) 20%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgb(255,255,255) 20%,rgb(255,255,255) 63%,rgba(132,132,130, 1) 20%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgb(255,255,255) 20%,rgb(255,255,255) 63%,rgba(132,132,130, 1) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.navbar-light .navbar-brand {
+    color: #020202;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    background-color: #007ba1 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #a84545;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    background-color: #007ba1 !important;
+}
+
+
+.nav-link {
+    color: rgba(255, 255, 255, 1) !important;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .header .navbar {
@@ -62,6 +90,23 @@ body {
 }
 
 
+/* --- NUESTROS PORQUE NOSOTROS --- */
+.container-PNbody {
+    background-color: rgba(37, 39, 44, 1);
+    margin-top: 10%;
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    
+}
+
+
+/* --- NUESTROS NUESTRO EQUIPO --- */
+.container-NEbody {
+    background-color: rgba(37, 39, 44, 1);
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    max-height: 50vh;
+}
+
+
 /* --- NUESTROS CLIENTES --- */
 .container-NCbody {
     background-color: rgba(37, 39, 44, 1);
@@ -79,7 +124,7 @@ body {
 
 /* --- IMAGE FOOTER --- */
 .image-footer {
-    background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center;
+    background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center fixed;
     background-size: cover;
     min-height: 55vh;
 }
@@ -111,8 +156,141 @@ body {
 }
 
 
+/* --- RESPONSIVE / 1366*768 --- */
 
-/* --- RESPONSIVE --- */
+@media only screen and (max-width: 1366px) {
+body {
+        overflow-x: hidden;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+        padding: 0.5em 1em !important;
+        background: #e2e1e1; /* Old browsers */
+        background: -moz-linear-gradient(left,  rgb(255,255,255) 20%, rgb(255,255,255) 60%, rgba(132,132,130, 1) 20%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgb(255,255,255) 20%,rgb(255,255,255) 60%,rgba(132,132,130, 1) 20%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgb(255,255,255) 20%,rgb(255,255,255) 60%,rgba(132,132,130, 1) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.navbar-light .navbar-brand {
+        color: #020202;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        background-color: #007ba1 !important;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #a84545;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        background-color: #007ba1 !important;
+    }
+
+
+.nav-link {
+        color: rgba(255, 255, 255, 1) !important;
+        font-size: 25px;
+        font-weight: 500;
+}
+
+.header .navbar {
+        background-color: rgba(227, 226, 226, 1) !important;
+}
+
+.imageNavbar {
+        width: 65%;
+}
+
+
+/* --- BODY --- */
+
+.container-body {
+        background-position: top !important; 
+        background: url(../assets/Nosotros/BANNER-NOSOTROS.png) no-repeat center fixed;
+        background-size: contain;
+        min-height: 85vh;
+}
+
+
+/* --- NUESTROS PORQUE NOSOTROS --- */
+.container-PNbody {
+    background-color: rgba(37, 39, 44, 1);
+    margin-top: 10%;
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    
+}
+
+.imagePorqueNosotros {
+    width: 100%;
+}
+
+
+/* --- NUESTROS NUESTRO EQUIPO --- */
+.container-NEbody {
+    background-color: rgba(37, 39, 44, 1);
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    max-height: 50vh;
+}
+
+.imageNuestroEquipo {
+    width: 100%;
+}
+
+
+/* --- NUESTROS CLIENTES --- */
+.container-NCbody {
+    background-color: rgba(37, 39, 44, 1);
+    margin-top: 10%;
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    min-height: 75vh;
+}
+
+.imageClientes {
+    width: 73%;
+    margin-left: 13%; 
+    margin-top: 8%;
+}
+
+
+
+
+/* --- FOOTER --- */
+.bannerFooter {
+        
+}
+
+.titleContact {
+        text-align: center; color: white; margin-top: 2%;
+}
+
+.imageBlue {
+        background-image: url(../assets/Inicio/BARRA-CONTACTANOS.png);
+}
+
+.lineFooter {
+        text-align: center; 
+        margin-top: 2%; color: rgba(82, 86, 89, 1); 
+        font-size: 75px;
+}
+
+.social {
+        width: 3%;
+}
+
+.alu2 {
+        width: 17%;
+}
+}
+
+
+/* --- RESPONSIVE / PHONE--- */
 
 @media only screen and (max-width: 768px) {
 body {
@@ -126,6 +304,36 @@ body {
 /* --- NAVBAR --- */
 .navbar {
     padding: 0.5em 1em !important;
+    background: #e2e1e1; /* Old browsers */
+    background: -moz-linear-gradient(left,  rgb(255,255,255) 20%, rgb(255,255,255) 75%, rgba(132,132,130, 1) 20%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgb(255,255,255) 20%,rgb(255,255,255) 75%,rgba(132,132,130, 1) 20%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgb(255,255,255) 20%,rgb(255,255,255) 75%,rgba(132,132,130, 1) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+/* .navbar {
+    padding: 0.5em 1em !important;
+} */
+
+.navbar-light .navbar-brand {
+    color: #020202;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #a84545;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: #717171 !important;
+    font-size: 15px;
 }
 
 .navbar-brand {
@@ -135,6 +343,7 @@ body {
 .imageNavbar {
     width: 105%;
 }
+
 
 /* --- BODY --- */
 .container-body {
@@ -178,12 +387,37 @@ body {
 }
 
 
-/* --- NUESTROS CLIENTES --- */
-.container-NCbody {
+/* --- NUESTROS PORQUE NOSOTROS --- */
+.container-PNbody {
     background-color: rgba(37, 39, 44, 1);
     margin-top: 10%;
     /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
-    min-height: 35vh;
+    
+}
+
+.imagePorqueNosotros {
+    width: 100%;
+}
+
+
+/* --- NUESTROS NUESTRO EQUIPO --- */
+.container-NEbody {
+    background-color: rgba(37, 39, 44, 1);
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    max-height: 20vh;
+}
+
+.imageNuestroEquipo {
+    width: 100%;
+}
+
+
+/* --- NUESTROS CLIENTES --- */
+.container-NCbody {
+    background-color: rgba(37, 39, 44, 1);
+    margin-top: -5%;
+    /* background: url(../assets/Nosotros/NUESTROS-CLIENTES.png) no-repeat center; */
+    min-height: 25vh;
 }
 
 .imageClientes {
